@@ -1,7 +1,12 @@
 body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color: white;
     background-image: url("../images/what-the-hex.png");
     background-repeat: repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;  
 }
 
 .navbar {
@@ -13,7 +18,12 @@ body {
     height: 80px;
 }
 
+.navContent {
+    width: 960px;
+}
+
 .studentName {
+    padding: 20px 10px 20px 10px;
     color: white;
     background-color: teal;
     width: fit-content;
@@ -50,5 +60,6 @@ body {
 }
 
 .container {
+    width: 960px;
     margin-top: 100px;
 }
