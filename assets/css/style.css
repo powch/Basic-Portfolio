@@ -9,6 +9,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;  
 }
 
+/* Navigation styling */
+
 .navbar {
     background-color: rgb(66, 65, 70);
     position: fixed;
@@ -61,6 +63,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: teal;
 }
 
+/* Container styling */
+
 .container {
     width: 960px;
     background-color: white;
@@ -84,6 +88,8 @@ h1, h2, h3, h4, h5, h6 {
 hr {
     margin-bottom: 20px;
 }
+
+/* Contact page styling */
 
 input[type=text] {
     box-sizing: border-box;
@@ -112,6 +118,12 @@ input[type=submit] {
 input[type=submit]:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+/* Portfolio styling */
+
+
+
+/* Footer styling */
 
 footer {
     position: fixed;
