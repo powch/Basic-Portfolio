@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .studentName {
-    padding: 20px 10px 20px 10px;
+    padding: 20px;
     color: white;
     background-color: teal;
     width: fit-content;
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     background-color: none;
     padding: 10px;
-    transition: .33s background-color;
+    transition: .2s background-color;
 }
 
 .navitem a:hover {
@@ -83,6 +83,34 @@ h1, h2, h3, h4, h5, h6 {
 
 hr {
     margin-bottom: 20px;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    width: 915px;
+    margin: 5px 0 10px 0;
+    padding: 12px 20px;
+}
+
+textarea {
+    box-sizing: border-box;
+    margin: 5px 0 10px 0;
+    height: 200px;
+    width: 915px;
+    resize: none;
+}
+
+input[type=submit] {
+    color: white;
+    background-color: teal;
+    padding: 8px;
+    font-size: 1.2rem;
+    border: none;
+    transition: .1s box-shadow;
+}
+
+input[type=submit]:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer {
