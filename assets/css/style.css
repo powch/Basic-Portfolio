@@ -125,6 +125,10 @@ input[type=submit]:hover {
 
 /* Portfolio styling */
 
+table {
+    margin: auto;
+}
+
 td {
     padding: 0 20px 20px 0;
 }
