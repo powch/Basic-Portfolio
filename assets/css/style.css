@@ -97,7 +97,7 @@ hr {
 
 input[type=text] {
     box-sizing: border-box;
-    width: 915px;
+    width: 100%;
     margin: 5px 0 10px 0;
     padding: 12px 20px;
 }
@@ -106,7 +106,7 @@ textarea {
     box-sizing: border-box;
     margin: 5px 0 10px 0;
     height: 200px;
-    width: 915px;
+    width: 100%;
     resize: none;
 }
 
@@ -124,6 +124,25 @@ input[type=submit]:hover {
 }
 
 /* Portfolio styling */
+
+td {
+    padding: 0 20px 20px 0;
+}
+
+td p {
+    text-align: center;
+    margin-top: 75%;
+    background-color: teal;
+    width: 100%;
+    line-height: 40px;
+}
+
+.portItem1, .portItem2, .portItem3, .portItem4, .portItem5, .portItem6 {
+    background-image: url("http://www.fillmurray.com/200/200");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+}
 
 
 
