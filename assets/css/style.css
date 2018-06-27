@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.25rem;
 }
 
-.navitem a {
+.navitem > a {
     color: white;
     text-decoration: none;
     background-color: none;
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: .2s background-color;
 }
 
-.navitem a:hover {
+.navitem > a:hover {
     background-color: teal;
 }
 
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 150px;
 }
 
-.container img {
+.container > img {
     float: left;
     margin-right: 15px;
 }
@@ -174,7 +174,7 @@ footer {
     width: 100%;
 }
 
-footer p {
+footer > p {
     color: white;
     padding: 15px;
     text-align: center;
